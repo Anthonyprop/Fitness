@@ -1,0 +1,107 @@
+/* move sports "wireframe" project
+	Author: Pierre
+	Date: 7/2/19
+	file: styles.css */
+
+html, body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.head {
+	background-color: lightgrey;
+	padding: 60px;
+
+}
+
+
+div#row {
+	background-color: rgb(128,128,128);
+	
+
+}
+
+.Containers {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.containers h1, h2 {
+	font-size: 50px;
+	color: orange;
+	text-shadow: 3px 2px 1px grey;
+	text-align: center;
+	bottom: 200px;
+
+}
+
+
+
+img#logo1 {
+	height: 500px;
+	width: 100%;
+
+}
+
+img#logo2 {
+	height: 500px;
+	width: 100%;
+
+}
+
+img#logo3 {
+	height: 500px;
+	width: 100%;
+}
+
+.col-md-4 {
+	max-width: 100%;
+	
+}
+
+.col-md-4 p {
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	bottom: 90px;
+	left: 5px;
+	color: orange;
+}
+
+
+.Btn {
+	font-size: 30px;
+	background-color: orange;
+	color: black;
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 25px;
+	width: 300px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.img-fluid {
+	background-image: url('hero.webp');
+	height: 500px;
+	display: block;
+	background-size: cover;
+	padding-bottom: 500px;
+	background-attachment: fixed;
+	
+
+
+}
+
+.footer {
+	background-color: darkgrey;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	color: orange;
+}
+
